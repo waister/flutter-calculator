@@ -1,2 +1,3 @@
-# flutter-calculator
-I create a simple calculator project, more for learning purposes.
+# Flutter Calculator
+Simple calculator project, created for study purposes.
+Built following this video: https://www.youtube.com/watch?v=jyjdXFsQoYw
