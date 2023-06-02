@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Button extends StatelessWidget {
   static const DARK = Color.fromRGBO(82, 82, 82, 1);
-  static const DEFALUT = Color.fromRGBO(112, 112, 112, 1);
+  static const DEFAULT = Color.fromRGBO(112, 112, 112, 1);
   static const OPERATION = Color.fromRGBO(250, 158, 13, 1);
 
   final String text;
@@ -13,14 +13,14 @@ class Button extends StatelessWidget {
   Button({
     @required this.text,
     this.big = false,
-    this.color = DEFALUT,
+    this.color = DEFAULT,
     @required this.cb,
   });
 
   Button.big({
     @required this.text,
     this.big = true,
-    this.color = DEFALUT,
+    this.color = DEFAULT,
     @required this.cb,
   });
 
